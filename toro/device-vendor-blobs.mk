@@ -51,5 +51,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     RTN \
     VZWAPNLib \
+    IMSFramework \
+    BIP \
+    SPG \
+    SDM \
+    CellBroadcastReceiver \
+    SyncMLSvc \
     VZWAPNService
 
