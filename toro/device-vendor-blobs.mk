@@ -16,16 +16,20 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_PACKAGES += \
+    bcm4330 \
     BIP \
     IMSFramework \
     RTN \
+    gps.omap4 \
     lib_gsd4t \
+    libdrmdecrypt \
     libims \
     libims_jni \
     libsec-ril_lte \
+    libsecril-client \
     com.vzw.hardware.ehrpd.xml \
     com.vzw.hardware.lte.xml \
     com.vzw.vzwapnlib.xml \
+    sirfgps \
     VZWAPNLib \
     VZWAPNService
-

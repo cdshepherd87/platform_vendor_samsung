@@ -14,4 +14,9 @@
 
 # Samsung blob(s) necessary for maguro hardware
 PRODUCT_PACKAGES += \
-    libsec-ril
+    bcm4330 \
+    gps.omap4 \
+    libdrmdecrypt \
+    libsec-ril \
+    libsecril-client \
+    sirfgps
